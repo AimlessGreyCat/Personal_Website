@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  background-color: #FFEFEF;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+h2 {
+  color: #92A9BD;
+  font-weight: normal;
+}
+
+hr {
+  color: #7C99AC;
+  border-width: medium;
+  width: 10%;
+  border-style: solid none none none;
+}
+
+/*-----Top-Container-----*/
+.top-container {
+  background-color: #7C99AC;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: 300px;
+}
+
+.mountain {
+  margin-bottom: -3px;
+}
+
+/*-----Bio-Container------*/
+.biography-container {
+  position: relative;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #D3DEDC;
+}
+
+.biography-text {
+  padding: 0 30% 0 30%;
+  text-align: justify;
+  font-family: monospace;
+  font-size: 16px;
+  color: #7C99AC;
+}
+
+/*-----Education-Container------*/
+.education-container {
+  padding: 20px 10% 20px 10%;
+  display: block;
+}
+
+.education-image {
+  float: left;
+}
+
+.education-image-2 {
+  float: right;
+}
+
+.education-table {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/*-----Skills-Container------*/
+.skills-container {
+  position: relative;
+  padding: 20px 10% 20px 10%;
+}
+
+.skills-image {
+  height: 128px;
+  width: 128px;
+}
+
+.skills-table {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-----Hobbies-Container------*/
+.hobbies-container{
+  position: relative;
+  padding: 20px 10% 20px 10%;
+}
+
+.hobbies-table {
+  margin: auto;
+  table-layout: fixed;
+  column-width: 200px;
+}
+
+/*-----Contact-Container------*/
+.contact-container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #7C99AC;
+}
